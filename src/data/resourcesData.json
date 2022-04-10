@@ -1,0 +1,67 @@
+[
+{
+    "id": "52802.500491",
+    "name": "Cassondra",
+    "location": "Rosario",
+    "maxCapacity": "89",
+    "maxTime": "8",
+    "status": "not available"
+},
+{
+    "id": "70238.368377",
+    "name": "Mildrid",
+    "location": "Almaty",
+    "maxCapacity": "92",
+    "maxTime": "10",
+    "status": "available"
+},
+{
+    "id": "54553.540214",
+    "name": "Consuela",
+    "location": "Liverpool",
+    "maxCapacity": "97",
+    "maxTime": "21",
+    "status": "not available"
+},
+{
+    "id": "29403.502767",
+    "name": "Coral",
+    "location": "Athens",
+    "maxCapacity": "90",
+    "maxTime": "15",
+    "status": "available"
+},
+{
+    "id": "99036.806428",
+    "name": "Brianna",
+    "location": "Antofagasta",
+    "maxCapacity": "26",
+    "maxTime": "4",
+    "status": "hidden"
+},
+{
+    "id": "76915.618369",
+    "name": "Gaylene",
+    "location": "Caracas",
+    "maxCapacity": "1",
+    "maxTime": "16",
+    "status": "hidden"
+},
+{
+    "id": "86911.090369",
+    "name": "Roseline",
+    "location": "Riverside",
+    "maxCapacity": "21",
+    "maxTime": "9",
+    "status": "available"
+},
+{
+    "id": "2847.060014",
+    "name": "Ida",
+    "location": "Ndola",
+    "maxCapacity": "98",
+    "maxTime": "12",
+    "status": "not available"
+}
+]
+
