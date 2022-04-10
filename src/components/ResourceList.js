@@ -59,8 +59,11 @@ const ResourceList = () => {
         <tr>
           <th>Name</th>
           <th>Location</th>
-          <th>maxCapacity</th>
-          <th>maxTime</th>
+          <th>capacity</th>
+          <th>time</th>
+          <th>buffer</th>
+          <th>cancel time</th>
+          <th>approval</th>
           <th>status</th>
           <th>Actoins</th>
         </tr>
@@ -78,10 +81,10 @@ const ResourceList = () => {
         </tbody>
     </table>
 
-      <Modal show={show} onHide={handleClose} >
+      <Modal dialogClassName="my-modal" show={show} onHide={handleClose} >
       <Modal.Header closeButton>
         <Modal.Title>
-          Add Employee
+          Add Resource
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>

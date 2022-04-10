@@ -23,6 +23,9 @@ const Resource = ({resource}) => {
         location,
         maxCapacity,
         maxTime,
+        buffer,
+        cancelTime,
+        approval,
         status,
     } = resource    
     return (<>
@@ -30,6 +33,9 @@ const Resource = ({resource}) => {
         <td>{location}</td>
         <td>{maxCapacity}</td>
         <td>{maxTime}</td>
+        <td>{buffer}</td>
+        <td>{cancelTime}</td>
+        <td>{approval}</td>
         <td>{status}</td>
         <td>
             <button 

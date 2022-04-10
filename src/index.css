@@ -172,7 +172,8 @@ table.table .avatar {
 
 /* Modal styles */
 .modal .modal-dialog {
-  max-width: 400px;
+  width: 80vw;
+  max-width: 95vw;
 }
 
 .modal .modal-header,

@@ -5,6 +5,9 @@
     "location": "Rosario",
     "maxCapacity": "89",
     "maxTime": "8",
+    "buffer" : "7",
+    "cancelTime" : "24",
+    "approval" : "everyone",
     "status": "not available"
 },
 {
@@ -13,6 +16,9 @@
     "location": "Almaty",
     "maxCapacity": "92",
     "maxTime": "10",
+    "buffer": "0",
+    "cancelTime": "44",
+    "approval": "no one",
     "status": "available"
 },
 {
@@ -21,6 +27,9 @@
     "location": "Liverpool",
     "maxCapacity": "97",
     "maxTime": "21",
+    "buffer": "0",
+    "cancelTime": "76",
+    "approval": "everyone",
     "status": "not available"
 },
 {
@@ -29,6 +38,9 @@
     "location": "Athens",
     "maxCapacity": "90",
     "maxTime": "15",
+    "buffer": "12",
+    "cancelTime": "120",
+    "approval": "exceptions",
     "status": "available"
 },
 {
@@ -37,6 +49,9 @@
     "location": "Antofagasta",
     "maxCapacity": "26",
     "maxTime": "4",
+    "buffer": "3",
+    "cancelTime": "24",
+    "approval": "everyone",
     "status": "hidden"
 },
 {
@@ -45,6 +60,9 @@
     "location": "Caracas",
     "maxCapacity": "1",
     "maxTime": "16",
+    "buffer": "4",
+    "cancelTime": "5",
+    "approval": "everyone",
     "status": "hidden"
 },
 {
@@ -53,6 +71,9 @@
     "location": "Riverside",
     "maxCapacity": "21",
     "maxTime": "9",
+    "buffer": "6",
+    "cancelTime": "0",
+    "approval": "exceptions",
     "status": "available"
 },
 {
@@ -61,6 +82,9 @@
     "location": "Ndola",
     "maxCapacity": "98",
     "maxTime": "12",
+    "buffer": "0",
+    "cancelTime": "55",
+    "approval": "no one",
     "status": "not available"
 }
 ]

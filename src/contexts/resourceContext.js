@@ -7,10 +7,10 @@ export const ResourceContext = createContext()
 const ResourceContextProvider = (props) =>{
     const [resources, setresources] = useState(resourcesData)
     
-    const addResource = (name,location,maxCapacity,maxTime,status) => {
+    const addResource = (name, location, maxCapacity, maxTime, buffer, cancelTime, approval, status) => {
         setresources([
             ...resources,
-            {id:uuidv4(),name,location,maxCapacity,maxTime,status}
+            { id: uuidv4(), name, location, maxCapacity, maxTime, buffer, cancelTime, approval, status}
         ])
     }
 
