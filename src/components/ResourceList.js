@@ -9,8 +9,6 @@ import { Modal, Button, Alert } from 'react-bootstrap'
 import AddForm from './AddForm'
 
 
-
-
 const ResourceList = () => {
   
   const {resources} = useContext(ResourceContext)
